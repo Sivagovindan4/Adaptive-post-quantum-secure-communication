@@ -1,0 +1,11 @@
+streamlit
+plotly
+qiskit
+qiskit-aer
+cryptography
+pandas
+pylatexenc
+# required for Bloch sphere + circuit rendering
+matplotlib
+# optional PQC binding (requires liboqs native library)
+# oqs

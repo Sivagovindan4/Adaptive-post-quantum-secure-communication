@@ -1,0 +1,18 @@
+# Adaptive Post-Quantum Secure Communication Framework
+# Dependencies
+
+# Core cryptography (real AES-256-GCM, HKDF, X25519, Ed25519)
+cryptography>=41.0.0
+
+# Quantum computing (BB84 QKD simulation)
+qiskit>=1.0.0
+qiskit-aer>=0.13.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Optional: Real CRYSTALS-Kyber PQC via liboqs
+# Install: pip install liboqs-python
+# Requires liboqs C library installed on your system
+# See: https://github.com/open-quantum-safe/liboqs-python
+# liboqs-python>=0.9.0
