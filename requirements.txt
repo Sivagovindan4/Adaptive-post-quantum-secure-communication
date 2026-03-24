@@ -11,6 +11,11 @@ qiskit-aer>=0.13.0
 # Visualization
 matplotlib>=3.7.0
 
+streamlit>=1.32.0
+# Data handling (often needed)
+numpy
+pandas
+
 # Optional: Real CRYSTALS-Kyber PQC via liboqs
 # Install: pip install liboqs-python
 # Requires liboqs C library installed on your system
