@@ -13,6 +13,11 @@ matplotlib>=3.7.0
 
 streamlit>=1.32.0
 
+plotly>=5.0.0   # 👈 ADD THIS
+
+# Data handling
+numpy
+pandas
 
 # Optional: Real CRYSTALS-Kyber PQC via liboqs
 # Install: pip install liboqs-python
